@@ -21,7 +21,6 @@ def test_runnable():
     out = getoutput(f'python {prg}')
     assert out.strip() == 'Hello, World!'
 
-
 # --------------------------------------------------
 def test_executable():
     """Says 'Hello, World!' by default"""
